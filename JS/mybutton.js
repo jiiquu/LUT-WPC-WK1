@@ -1,11 +1,10 @@
 const myButton = document.getElementById('my-button');
-tervehdys = document.getElementById('tervehdys');
 const addData = document.getElementById('add-data');
 let itemCounter = 0;
 
 myButton.addEventListener('click', function() {
     console.log('hello world');
-    
+    let tervehdys = document.getElementById('tervehdys');
     tervehdys.innerText = 'Moi maailma';
 });
 addData.addEventListener('click', function() {
